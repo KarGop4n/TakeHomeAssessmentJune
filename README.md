@@ -135,6 +135,7 @@ Customize trading signal detection in `appsettings.json`:
     "EnableDetailedLogging": true
   }
 }
+```
 
 ## Taking It Further
 
