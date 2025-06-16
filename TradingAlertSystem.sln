@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingAlertSystem.Core", "TradingAlertSystem.Core\TradingAlertSystem.Core.csproj", "{E9BCA836-ACA4-4881-9CF2-4A38BAA59A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingAlertSystem.Infrastructure", "TradingAlertSystem.Infrastructure\TradingAlertSystem.Infrastructure.csproj", "{418F92D3-D9EA-4D6B-AE23-ECD645371D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingAlertSystem.Services", "TradingAlertSystem.Services\TradingAlertSystem.Services.csproj", "{1C8225D2-F6A0-4D6D-8BF7-4170C5DFFDB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingAlertSystem.Console", "TradingAlertSystem.Console\TradingAlertSystem.Console.csproj", "{63F7EB49-3F24-4F36-A806-38B118374638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingAlertSystem.Tests", "TradingAlertSystem.Tests\TradingAlertSystem.Tests.csproj", "{32D6A6B6-87DF-46C4-A0CB-7AC1E1DC5F9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9BCA836-ACA4-4881-9CF2-4A38BAA59A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BCA836-ACA4-4881-9CF2-4A38BAA59A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BCA836-ACA4-4881-9CF2-4A38BAA59A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BCA836-ACA4-4881-9CF2-4A38BAA59A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418F92D3-D9EA-4D6B-AE23-ECD645371D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418F92D3-D9EA-4D6B-AE23-ECD645371D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418F92D3-D9EA-4D6B-AE23-ECD645371D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418F92D3-D9EA-4D6B-AE23-ECD645371D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8225D2-F6A0-4D6D-8BF7-4170C5DFFDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8225D2-F6A0-4D6D-8BF7-4170C5DFFDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8225D2-F6A0-4D6D-8BF7-4170C5DFFDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8225D2-F6A0-4D6D-8BF7-4170C5DFFDB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F7EB49-3F24-4F36-A806-38B118374638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F7EB49-3F24-4F36-A806-38B118374638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F7EB49-3F24-4F36-A806-38B118374638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F7EB49-3F24-4F36-A806-38B118374638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D6A6B6-87DF-46C4-A0CB-7AC1E1DC5F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D6A6B6-87DF-46C4-A0CB-7AC1E1DC5F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D6A6B6-87DF-46C4-A0CB-7AC1E1DC5F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D6A6B6-87DF-46C4-A0CB-7AC1E1DC5F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
