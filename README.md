@@ -11,7 +11,7 @@ This system continuously monitors 7 major natural gas pipeline Electronic Bullet
 ### Option 1: Run with .NET
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/KarGop4n/TakeHomeAssessmentJune/tree/dev
 cd trading-alert-system
 
 # Restore dependencies
