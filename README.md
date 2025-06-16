@@ -1,15 +1,6 @@
 This system continuously monitors 7 major natural gas pipeline Electronic Bulletin Boards (EBBs) for curtailments, outages, force majeure events, and other notices that create trading opportunities. When relevant signals are detected, it sends immediate Slack notifications and periodic email digests to energy traders.
 
-**Features:**
-- **Real-time monitoring** of 7 pipeline providers every 5 minutes
-- **Smart detection** using configurable trading rules
-- **Duplicate filtering** prevents notification spam
-- **Multi-channel notifications** (Slack + Email)
-- **Docker deployment** ready for production
-- **Anti-bot measures** for rate-limited pipeline sites
-- **Date filtering** focuses on trading-relevant timeframes
-
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - .NET 8.0 SDK
@@ -51,7 +42,7 @@ docker run -d --name trading-alerts \
 docker logs -f trading-alerts
 ```
 
-## 📊 Pipeline Coverage
+## Pipeline Coverage
 
 The system monitors these major interstate natural gas pipelines:
 
